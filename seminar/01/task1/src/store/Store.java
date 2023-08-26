@@ -1,5 +1,8 @@
 package store;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Store {
     private List<Order> orders = new ArrayList<>();
 

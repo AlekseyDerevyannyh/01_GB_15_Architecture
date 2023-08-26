@@ -1,9 +1,13 @@
 package store;
 
+import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
+
 public class Order {
     private static int counter = 10000;
     private int id;
-    private Date orderDate;
+    private LocalDateTime orderDate;
     private String address;
     private String phone;
     private Buyer buyer;
@@ -13,7 +17,7 @@ public class Order {
         id = ++counter;
     }
 
-    public Order(Date orderDate, String address, String phone, Buyer buyer, List<OrderItem> items) {
+    public Order(LocalDateTime orderDate, String address, String phone, Buyer buyer, List<OrderItem> items) {
 
         if (buyer == null) {
             throw new RuntimeException("Покупатель должен существовать.");
