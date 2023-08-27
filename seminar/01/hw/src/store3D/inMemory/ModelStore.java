@@ -16,9 +16,25 @@ public class ModelStore implements IModelChanger {
     private List<Scene> scenes = new ArrayList<>();
     private List<Camera> cameras = new ArrayList<>();
 
+    public ModelStore(List<PoligonalModel> models, List<Flash> flashes, List<Scene> scenes, List<Camera> cameras) {
+        this.models = models;
+        this.flashes = flashes;
+        this.scenes = scenes;
+        this.cameras = cameras;
+    }
+
     public void add(PoligonalModel model) {
         models.add(model);
         notifyChange();
+    }
+
+    public Scene getScene(int id) {
+        for (Scene scene : this.scenes) {
+            if (scene.getId() == id) {
+                return scene;
+            }
+        }
+        return null;
     }
 
     @Override
