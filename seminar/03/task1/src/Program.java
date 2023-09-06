@@ -1,3 +1,5 @@
+import java.awt.*;
+
 public class Program {
 
     /**
@@ -31,6 +33,14 @@ public class Program {
      * @param args
      */
     public static void main(String[] args) {
+        Harvester harvester1 = new Harvester("A", "B", Color.BLACK);
+
+        RefuelingStation refuelingStation = new RefuelingStation();
+
+        harvester1.setRefuelingStation(refuelingStation);
+        harvester1.fuel();
+
+        
 
     }
 
