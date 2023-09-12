@@ -27,7 +27,7 @@ public class Program {
 //            Collection<Ticket> tickets = mobileApp.getTickets();
 //            if (busStation.checkTicket(tickets.stream().findFirst().get().getQrcode())) {
 //                System.out.println("Клиент успешно прошёл в автобус.");
-            }
+//            }
         }
     }
 }
