@@ -1,7 +1,9 @@
 package notes.core.application;
 
+import database.NotesDatabase;
 import notes.core.application.interfaces.NoteEditor;
 import notes.core.application.interfaces.NotesDatabaseContext;
+import notes.core.application.interfaces.NotesPresenter;
 import notes.core.domain.Note;
 
 import java.util.Collection;
@@ -11,9 +13,11 @@ import java.util.Optional;
 public class ConcreteNoteEditor implements NoteEditor {
 
     private final NotesDatabaseContext dbContext;
+    private final NotesPresenter notesPresenter;
 
-    public ConcreteNoteEditor(NotesDatabaseContext dbContext) {
+    public ConcreteNoteEditor(NotesDatabaseContext dbContext, NotesPresenter notesPresenter) {
         this.dbContext = dbContext;
+        this.notesPresenter = notesPresenter;
     }
 
     @Override
@@ -53,6 +57,6 @@ public class ConcreteNoteEditor implements NoteEditor {
 
     @Override
     public void printAll() {
-
+        notesPresenter.printAll(getAll());
     }
 }

@@ -4,6 +4,15 @@ import java.util.Date;
 
 public class Note {
 
+    @Override
+    public String toString() {
+        return "Note{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", details='" + details + '\'' +
+                '}';
+    }
+
     //region Constructors
     public Note(int id, int userId, String tle, String details, Date creationDate) {
         this.id = id;

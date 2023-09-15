@@ -1,6 +1,8 @@
 package database;
 
-public class NotesDatabase {
+import notes.infrastructure.persistance.Database;
+
+public class NotesDatabase implements Database {
 
     private NotesTable notesTable;
 
