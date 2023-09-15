@@ -1,4 +1,7 @@
 package notes.core.application.interfaces;
 
-public interface NoteEditor {
+import notes.core.domain.Note;
+
+public interface NoteEditor extends Editor<Note, Integer> {
+    void printAll();
 }
