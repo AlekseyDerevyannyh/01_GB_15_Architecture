@@ -14,7 +14,7 @@ public class Note {
     }
 
     //region Constructors
-    public Note(int id, int userId, String tle, String details, Date creationDate) {
+    public Note(int id, int userId, String title, String details, Date creationDate) {
         this.id = id;
         this.userId = userId;
         this.title = title;

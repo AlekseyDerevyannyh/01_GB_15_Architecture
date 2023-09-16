@@ -20,4 +20,14 @@ public class NotesTable {
         }
         return records;
     }
+
+    public void removeRecordById(int id) {
+        Collection<NotesRecord> result = new ArrayList<>();
+        for (NotesRecord record : this.records) {
+            if (record.getId() != id) {
+                result.add(record);
+            }
+        }
+        this.records = result;
+    }
 }

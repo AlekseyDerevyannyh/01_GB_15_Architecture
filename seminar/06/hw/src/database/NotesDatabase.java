@@ -11,4 +11,9 @@ public class NotesDatabase implements Database {
             notesTable = new NotesTable();
         return notesTable;
     }
+
+    public void removeNotesRecordById(int id) {
+        this.notesTable.removeRecordById(id);
+    }
+
 }

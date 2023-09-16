@@ -4,4 +4,5 @@ import notes.core.domain.Note;
 
 public interface NoteEditor extends Editor<Note, Integer> {
     void printAll();
+    void removeById(int id);
 }

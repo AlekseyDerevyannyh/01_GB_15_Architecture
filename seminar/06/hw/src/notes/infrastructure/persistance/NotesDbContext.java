@@ -11,7 +11,6 @@ import java.util.Collection;
 
 public class NotesDbContext extends DbContext implements NotesDatabaseContext {
 
-
     @Override
     public Collection<Note> getAll() {
         Collection<Note> notesList = new ArrayList<>();
@@ -27,11 +26,17 @@ public class NotesDbContext extends DbContext implements NotesDatabaseContext {
         }
         return notesList;
     }
+
     public NotesDbContext(Database database) {
         super(database);
     }
     @Override
     protected void onModelCreating(ModelBuilder builder) {
         builder.applyConfiguration(new NoteConfiguration());
+    }
+
+    @Override
+    public void removeById(int id) {
+        ((NotesDatabase)database).removeNotesRecordById(id);
     }
 }

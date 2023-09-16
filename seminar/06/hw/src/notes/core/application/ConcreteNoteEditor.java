@@ -59,4 +59,9 @@ public class ConcreteNoteEditor implements NoteEditor {
     public void printAll() {
         notesPresenter.printAll(getAll());
     }
+
+    @Override
+    public void removeById(int id) {
+        dbContext.removeById(id);
+    }
 }
