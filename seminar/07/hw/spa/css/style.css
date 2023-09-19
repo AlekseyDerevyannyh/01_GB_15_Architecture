@@ -1,0 +1,20 @@
+.catalog_item_img_sizes {
+    max-width: 300px;
+    max-height: 344px;
+}
+
+.catalog_item_sizes {
+    max-width: 300px;
+}
+
+.catalog_item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.catalog_item_txt_size {
+    min-height: 250px;
+}
