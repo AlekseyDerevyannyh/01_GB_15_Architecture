@@ -13,6 +13,12 @@ public interface View {
     void showTables(Collection<Table> tables);
 
     /**
+     * Отображение списка свободных столиков
+     * @param tables список столиков
+     */
+    void showFreeTables(Collection<Table> tables);
+
+    /**
      * Отобразить результат бронирования столика
      * @param reservationNo Номер брони
      */

@@ -30,6 +30,13 @@ public class BookingPresenter implements ViewObserver {
         view.showTables(loadTables());
     }
 
+    /**
+     * Отобразить список свободных столиков (на представлении)
+     */
+    public void updateUIShowFreeTables() {
+        view.showFreeTables(loadTables());
+    }
+
     public void updateUIShowReservationTableResult(int reservationNo) {
         view.showReservationTableResult(reservationNo);
     }

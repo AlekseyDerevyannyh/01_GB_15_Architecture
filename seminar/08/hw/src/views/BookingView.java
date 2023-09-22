@@ -15,9 +15,19 @@ public class BookingView implements View {
         this.observer = observer;
     }
 
+    @Override
     public void showTables(Collection<Table> tables) {
         for (Table table : tables) {
             System.out.println(table);
+        }
+    }
+
+    @Override
+    public void showFreeTables(Collection<Table> tables) {
+        for (Table table : tables) {
+            if (table.getReservations() == null || table.getReservations().isEmpty()) {
+                System.out.println(table);
+            }
         }
     }
 
