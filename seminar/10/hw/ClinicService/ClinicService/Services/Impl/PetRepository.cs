@@ -19,6 +19,7 @@ namespace ClinicService.Services.Impl
                 command.Parameters.AddWithValue("@Name", item.Name);
                 command.Parameters.AddWithValue("@Birthday", item.Birthday.Ticks);
                 command.Prepare();
+                return command.ExecuteNonQuery();
             }
         }
 
@@ -40,17 +41,65 @@ namespace ClinicService.Services.Impl
 
         public int Delete(int id)
         {
-            throw new NotImplementedException();
+            using (SqliteConnection connection = new SqliteConnection(connectionString))
+            {
+                connection.Open();
+                SqliteCommand command = connection.CreateCommand();
+                command.CommandText = "DELETE FROM pets WHERE PetId = @PetId";
+                command.Parameters.AddWithValue("@PetId", id);
+                command.Prepare();
+                return command.ExecuteNonQuery();
+            }
         }
 
         public List<Pet> GetAll()
         {
-            throw new NotImplementedException();
+            List<Pet> list = new List<Pet>();
+            using (SqliteConnection connection = new SqliteConnection(connectionString))
+            {
+                connection.Open();
+                SqliteCommand command = connection.CreateCommand();
+                command.CommandText = "SELECT * FROM pets";
+                SqliteDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    Pet pet = new Pet
+                    {
+                        PetId = reader.GetInt32(0),
+                        ClientId = reader.GetInt32(1),
+                        Name = reader.GetString(2),
+                        Birthday = new DateTime(reader.GetInt64(3))
+                    };
+                    list.Add(pet);
+                }
+            }
+            return list;
         }
 
         public Pet GetById(int id)
         {
-            throw new NotImplementedException();
+            List<Pet> list = new List<Pet>();
+            using (SqliteConnection connection = new SqliteConnection(connectionString))
+            {
+                connection.Open();
+                SqliteCommand command = connection.CreateCommand();
+                command.CommandText = "SELECT * FROM pets WHERE PetId = @PetId";
+                command.Parameters.AddWithValue("@PetId", id);
+                command.Prepare();
+                SqliteDataReader reader = command.ExecuteReader();
+                if (reader.Read())
+                {
+                    Pet pet = new Pet
+                    {
+                        PetId = reader.GetInt32(0),
+                        ClientId = reader.GetInt32(1),
+                        Name = reader.GetString(2),
+                        Birthday = new DateTime(reader.GetInt64(3))
+                    };
+                    return pet;
+                }
+            }
+            return null;
         }
     }
 }

@@ -17,6 +17,8 @@ namespace ClinicService
 
             // Add services to the container.
             builder.Services.AddScoped<IClientRepository, ClientRepository>();
+            builder.Services.AddScoped<IConsultationRepository, ConsultationRepository>();
+            builder.Services.AddScoped<IPetRepository, PetRepository>();
 
 
             builder.Services.AddControllers();
@@ -81,6 +83,5 @@ namespace ClinicService
                     Description TEXT)";
             sqliteCommand.ExecuteNonQuery();
         }
-
     }
 }

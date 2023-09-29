@@ -3,7 +3,7 @@ using Microsoft.Data.Sqlite;
 
 namespace ClinicService.Services.Impl
 {
-    public class ConsultationsRepository : IConsultationRepository
+    public class ConsultationRepository : IConsultationRepository
     {
 
         private const string connectionString = "Data Source = clinic.db;";
@@ -73,8 +73,10 @@ namespace ClinicService.Services.Impl
                         ConsultationDate = new DateTime(reader.GetInt64(3)),
                         Description = reader.GetString(4)
                     };
+                    list.Add(consultation);
                 }
             }
+            return list;
         }
 
         public Consultation GetById(int id)

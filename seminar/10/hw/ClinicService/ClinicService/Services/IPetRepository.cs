@@ -2,7 +2,7 @@
 
 namespace ClinicService.Services
 {
-    public interface IPetRepository : IRepository<Pet, int> { 
-    
+    public interface IPetRepository : IRepository<Pet, int>
+    {
     }
 }
