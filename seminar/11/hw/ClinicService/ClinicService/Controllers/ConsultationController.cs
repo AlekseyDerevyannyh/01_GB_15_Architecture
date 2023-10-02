@@ -3,6 +3,7 @@ using ClinicService.Models;
 using ClinicService.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Swashbuckle.AspNetCore.Annotations;
 
 namespace ClinicService.Controllers
 {
@@ -19,7 +20,8 @@ namespace ClinicService.Controllers
         }
 
         [HttpPost("create")]
-        public IActionResult Create([FromBody] CreateConsultationRequest createRequest)
+        [SwaggerOperation(OperationId = "ConsultationCreate")]
+        public ActionResult<int> Create([FromBody] CreateConsultationRequest createRequest)
         {
             int res = _consultationRepository.Create(new Consultation
             {
@@ -32,7 +34,8 @@ namespace ClinicService.Controllers
         }
 
         [HttpPost("update")]
-        public IActionResult Update([FromBody] UpdateConsultationRequest updateRequest)
+        [SwaggerOperation(OperationId = "ConsultationUpdate")]
+        public ActionResult<int> Update([FromBody] UpdateConsultationRequest updateRequest)
         {
             int res = _consultationRepository.Update(new Consultation
             {
@@ -46,20 +49,23 @@ namespace ClinicService.Controllers
         }
 
         [HttpDelete("delete")]
-        public IActionResult Delete([FromQuery] int consultationId)
+        [SwaggerOperation(OperationId = "ConsultationDelete")]
+        public ActionResult<int> Delete([FromQuery] int consultationId)
         {
             int res = _consultationRepository.Delete(consultationId);
             return Ok(res);
         }
 
         [HttpGet("get-all")]
-        public IActionResult GetAll()
+        [SwaggerOperation(OperationId = "ConsultationGetAll")]
+        public ActionResult<List<Consultation>> GetAll()
         {
             return Ok(_consultationRepository.GetAll());
         }
 
         [HttpGet("get/{consultationId}")]
-        public IActionResult GetById([FromRoute] int consultationId)
+        [SwaggerOperation(OperationId = "ConsultationGetById")]
+        public ActionResult<List<Consultation>> GetById([FromRoute] int consultationId)
         {
             return Ok(_consultationRepository.GetById(consultationId));
         }

@@ -178,3 +178,4 @@ Q:\Git\01_GB\01_GB_Developer\15_Architecture\seminar\11\hw\ClinicService\ClinicS
 Q:\Git\01_GB\01_GB_Developer\15_Architecture\seminar\11\hw\ClinicService\ClinicService\obj\Debug\net7.0\ClinicService.pdb
 Q:\Git\01_GB\01_GB_Developer\15_Architecture\seminar\11\hw\ClinicService\ClinicService\obj\Debug\net7.0\ClinicService.genruntimeconfig.cache
 Q:\Git\01_GB\01_GB_Developer\15_Architecture\seminar\11\hw\ClinicService\ClinicService\obj\Debug\net7.0\ref\ClinicService.dll
+Q:\Git\01_GB\01_GB_Developer\15_Architecture\seminar\11\hw\ClinicService\ClinicService\bin\Debug\net7.0\Swashbuckle.AspNetCore.Annotations.dll

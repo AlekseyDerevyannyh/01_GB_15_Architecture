@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "enJ+5nABnzL/27ttS398ERFwGMHQBlvXprpZdAbryNnmGcsVoG1FbF9SnGI/b8iLWX7BrNrojIGrpwskbCXlLg==",
+  "dgSpecHash": "ZJBYvROMH5RKqNb8e1Y+GpbGruqajNHalIJdbQo3xZTMZuGavYEZBdhIwXaeNW0nrc4LWeJmS5BWjntH5mF2MA==",
   "success": true,
   "projectFilePath": "Q:\\Git\\01_GB\\01_GB_Developer\\15_Architecture\\seminar\\11\\hw\\ClinicService\\ClinicService\\ClinicService.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\derevyannyhaa\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.4\\sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg.sha512",
     "C:\\Users\\derevyannyhaa\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.4\\sqlitepclraw.provider.e_sqlite3.2.1.4.nupkg.sha512",
     "C:\\Users\\derevyannyhaa\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\derevyannyhaa\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.5.0\\swashbuckle.aspnetcore.annotations.6.5.0.nupkg.sha512",
     "C:\\Users\\derevyannyhaa\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\derevyannyhaa\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "C:\\Users\\derevyannyhaa\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
