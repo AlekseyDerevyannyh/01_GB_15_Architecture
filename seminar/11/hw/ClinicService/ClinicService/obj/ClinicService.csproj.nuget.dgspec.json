@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\Git\\01_GB\\01_GB_Developer\\15_Architecture\\seminar\\10\\hw\\ClinicService\\ClinicService\\ClinicService.csproj": {}
+    "Q:\\Git\\01_GB\\01_GB_Developer\\15_Architecture\\seminar\\11\\hw\\ClinicService\\ClinicService\\ClinicService.csproj": {}
   },
   "projects": {
-    "Z:\\Git\\01_GB\\01_GB_Developer\\15_Architecture\\seminar\\10\\hw\\ClinicService\\ClinicService\\ClinicService.csproj": {
+    "Q:\\Git\\01_GB\\01_GB_Developer\\15_Architecture\\seminar\\11\\hw\\ClinicService\\ClinicService\\ClinicService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\Git\\01_GB\\01_GB_Developer\\15_Architecture\\seminar\\10\\hw\\ClinicService\\ClinicService\\ClinicService.csproj",
+        "projectUniqueName": "Q:\\Git\\01_GB\\01_GB_Developer\\15_Architecture\\seminar\\11\\hw\\ClinicService\\ClinicService\\ClinicService.csproj",
         "projectName": "ClinicService",
-        "projectPath": "Z:\\Git\\01_GB\\01_GB_Developer\\15_Architecture\\seminar\\10\\hw\\ClinicService\\ClinicService\\ClinicService.csproj",
-        "packagesPath": "C:\\Users\\Derev\\.nuget\\packages\\",
-        "outputPath": "Z:\\Git\\01_GB\\01_GB_Developer\\15_Architecture\\seminar\\10\\hw\\ClinicService\\ClinicService\\obj\\",
+        "projectPath": "Q:\\Git\\01_GB\\01_GB_Developer\\15_Architecture\\seminar\\11\\hw\\ClinicService\\ClinicService\\ClinicService.csproj",
+        "packagesPath": "C:\\Users\\derevyannyhaa\\.nuget\\packages\\",
+        "outputPath": "Q:\\Git\\01_GB\\01_GB_Developer\\15_Architecture\\seminar\\11\\hw\\ClinicService\\ClinicService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Derev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\derevyannyhaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -42,7 +42,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.Data.Sqlite": {
               "target": "Package",

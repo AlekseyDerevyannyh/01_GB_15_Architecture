@@ -57,11 +57,11 @@ namespace ClinicService.Services.Impl
         public List<Consultation> GetAll()
         {
             List<Consultation> list = new List<Consultation>();
-            using (SqliteConnection connection = new SqliteConnection())
+            using (SqliteConnection connection = new SqliteConnection(connectionString))
             {
                 connection.Open();
                 SqliteCommand command = connection.CreateCommand();
-                command.CommandText = "SELECT * FROM clients";
+                command.CommandText = "SELECT * FROM consultations";
                 SqliteDataReader reader = command.ExecuteReader();
                 while (reader.Read())
                 {
