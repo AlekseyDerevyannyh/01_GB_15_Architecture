@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JBED5R/ujrkdEoJIFmci5P0vFA7Xesw1Kfm3/dkfMPPTRN8gbjLRDyu++JCvmikG8HjuPIBERioK1Nshra3zxw==",
+  "success": true,
+  "projectFilePath": "Z:\\Git\\01_GB\\01_GB_Developer\\15_Architecture\\seminar\\12\\hw\\ClinicService\\ClinicDesktop\\ClinicDesktop.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Derev\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
