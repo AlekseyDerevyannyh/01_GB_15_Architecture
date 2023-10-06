@@ -10,3 +10,15 @@ Q:\Git\01_GB\01_GB_Developer\15_Architecture\seminar\11\hw\ClinicService\ClinicD
 Q:\Git\01_GB\01_GB_Developer\15_Architecture\seminar\11\hw\ClinicService\ClinicDesktop.Data\obj\Debug\net7.0\refint\ClinicDesktop.Data.dll
 Q:\Git\01_GB\01_GB_Developer\15_Architecture\seminar\11\hw\ClinicService\ClinicDesktop.Data\obj\Debug\net7.0\ClinicDesktop.Data.pdb
 Q:\Git\01_GB\01_GB_Developer\15_Architecture\seminar\11\hw\ClinicService\ClinicDesktop.Data\obj\Debug\net7.0\ref\ClinicDesktop.Data.dll
+Z:\Git\01_GB\01_GB_Developer\15_Architecture\seminar\12\hw\ClinicService\ClinicDesktop.Data\bin\Debug\net7.0\ClinicDesktop.Data.deps.json
+Z:\Git\01_GB\01_GB_Developer\15_Architecture\seminar\12\hw\ClinicService\ClinicDesktop.Data\bin\Debug\net7.0\ClinicDesktop.Data.dll
+Z:\Git\01_GB\01_GB_Developer\15_Architecture\seminar\12\hw\ClinicService\ClinicDesktop.Data\bin\Debug\net7.0\ClinicDesktop.Data.pdb
+Z:\Git\01_GB\01_GB_Developer\15_Architecture\seminar\12\hw\ClinicService\ClinicDesktop.Data\obj\Debug\net7.0\ClinicDesktop.Data.csproj.AssemblyReference.cache
+Z:\Git\01_GB\01_GB_Developer\15_Architecture\seminar\12\hw\ClinicService\ClinicDesktop.Data\obj\Debug\net7.0\ClinicDesktop.Data.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Git\01_GB\01_GB_Developer\15_Architecture\seminar\12\hw\ClinicService\ClinicDesktop.Data\obj\Debug\net7.0\ClinicDesktop.Data.AssemblyInfoInputs.cache
+Z:\Git\01_GB\01_GB_Developer\15_Architecture\seminar\12\hw\ClinicService\ClinicDesktop.Data\obj\Debug\net7.0\ClinicDesktop.Data.AssemblyInfo.cs
+Z:\Git\01_GB\01_GB_Developer\15_Architecture\seminar\12\hw\ClinicService\ClinicDesktop.Data\obj\Debug\net7.0\ClinicDesktop.Data.csproj.CoreCompileInputs.cache
+Z:\Git\01_GB\01_GB_Developer\15_Architecture\seminar\12\hw\ClinicService\ClinicDesktop.Data\obj\Debug\net7.0\ClinicDesktop.Data.dll
+Z:\Git\01_GB\01_GB_Developer\15_Architecture\seminar\12\hw\ClinicService\ClinicDesktop.Data\obj\Debug\net7.0\refint\ClinicDesktop.Data.dll
+Z:\Git\01_GB\01_GB_Developer\15_Architecture\seminar\12\hw\ClinicService\ClinicDesktop.Data\obj\Debug\net7.0\ClinicDesktop.Data.pdb
+Z:\Git\01_GB\01_GB_Developer\15_Architecture\seminar\12\hw\ClinicService\ClinicDesktop.Data\obj\Debug\net7.0\ref\ClinicDesktop.Data.dll
